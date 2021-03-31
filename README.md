@@ -1,3 +1,7 @@
+## Sarah Servat Assignment 11 Photomap
+This photomap show and labels 4 locations that I traveled to in 2020. 
+
+
 # Photomap
 A Leaflet map that reads data from Google Sheets.  
 
