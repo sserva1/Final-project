@@ -17,7 +17,7 @@ function createPhotoMap () {
   var csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTNqFN_gOnMJM1PJJNeFGW-0yA_L56zmqLj-Z62YiC8fxle-';
   
   // create map object with center lat/lon and zoom level
-  var map = L.map('map').setView([33.94, -86.49], 6);
+  var map = L.map('map').setView([34.47, -94.24], 6);
   
   // create basemap object. See examples at https://leaflet-extras.github.io/leaflet-providers/preview/
   var Stamen_Watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
