@@ -18,9 +18,6 @@ function createPhotoMap () {
   
   // create map object with center lat/lon and zoom level
   var map = L.map('map').setView([34.47, -94.24], 6);
-	
-// add Stamen Watercolor to map.
-L.tileLayer.provider('Stamen.Watercolor').addTo(map);
   
   // create basemap object. See examples at https://leaflet-extras.github.io/leaflet-providers/preview/
   var Stamen_Watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
@@ -29,7 +26,7 @@ L.tileLayer.provider('Stamen.Watercolor').addTo(map);
 	minZoom: 1,
 	maxZoom: 16,
 	ext: 'jpg'
-});
+}).addTo(map);
 
   
   // use Papa Parse (papaparse.com) to get the Google Sheets CSV
