@@ -1,10 +1,7 @@
-## Sarah Servat Assignment 11 Photomap
-This photomap show and labels 4 locations that I traveled to in 2020. 
-<https://sserva1.github.io/photomap/>
-
-# Sarah Servat Final Photomap
-This photomap show all USHJA show locations in zone 7.
+# Sarah Servat Final Project Photomap
+This photomap show all USHJA show locations in zone 7(Louisiana, Arkansas, Texas, Okalahona, Missouri, and Kansas).
 <https://sserva1.github.io/Final-project/>
+
 # Photomap
 A Leaflet map that reads data from Google Sheets.  
 
