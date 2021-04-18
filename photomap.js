@@ -17,12 +17,14 @@ function createPhotoMap () {
   var csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTNqFN_gOnMJM1PJJNeFGW-0yA_L56zmqLj-Z62YiC8fxle-11Qv2VYWRX20Bu3XilafjLvIFLYjQvY/pub?gid=0&single=true&output=csv';
   
   // create map object with center lat/lon and zoom level
-  var map = L.map('map').setView([34.47, -94.24], 5);
+  var map = L.map('map').setView([34.47, -94.24], 6);
   
   // create basemap object. See examples at https://leaflet-extras.github.io/leaflet-providers/preview/
- var basemap = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryTopo/MapServer/tile/{z}/{y}/{x}', {
- maxZoom: 16,
- attribution: 'USGS'
+ var basemap = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+    subdomains: 'abcd',
+	minZoom: 1,
+	maxZoom: 16,
+	ext: 'jpg'
 }).addTo(map);
 
   
