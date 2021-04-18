@@ -2,7 +2,9 @@
 This photomap show and labels 4 locations that I traveled to in 2020. 
 <https://sserva1.github.io/photomap/>
 
-
+# Sarah Servat Final Photomap
+This photomap show all USHJA show locations in zone 7.
+<https://sserva1.github.io/Photomap-final/>
 # Photomap
 A Leaflet map that reads data from Google Sheets.  
 
